@@ -100,13 +100,6 @@ export default class Header extends Component {
       <React.Fragment>
       
       <header id="home">
-     asdfasdfasdfdasdf
-      <ReactCSSTransitionGroup
-        transitionName="react-transition"
-        transitionAppear={true}
-        transitionEnterTimeout={500}
-        transitionLeaveTimeout={500}
-        transitionAppearTimeout={500}>
         <div className="projects-page">
           <h1 className="section-title">Login List</h1>
 
@@ -141,7 +134,6 @@ export default class Header extends Component {
         </div>
 
 
-        </ReactCSSTransitionGroup>
       </header>
       </React.Fragment>
     );

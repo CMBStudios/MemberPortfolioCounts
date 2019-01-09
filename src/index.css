@@ -13,3 +13,120 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.projects-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+  top: 50px; left: 0; bottom: 0; right: 0;
+  width: 60%;
+  height: 70%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  color: #676666
+}
+
+
+.filter-container {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+.filter-container {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.table100.ver1 {
+  border-radius: 10px;
+  overflow: auto;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.m-b-110 {margin-bottom: 110px;}
+
+
+.full_width{
+  width: 100%;
+}
+.full_height{
+  height: 100%;
+}
+
+
+.table100-head {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.column1 {
+  width: 10%;
+  padding-left: 40px;
+}
+
+
+.column2 {
+  width: 20%;
+}
+
+.column3 {
+  width: 20%;
+}
+
+.column4 {
+  width: 20%;
+}
+
+
+.table100-body {
+  max-height: 585px;
+  overflow: auto;
+}
+
+.js-pscroll {
+  position: relative;
+  overflow: hidden;
+}
+
+.ps {
+  overflow: hidden !important;
+  overflow-anchor: none;
+  -ms-overflow-style: none;
+  touch-action: auto;
+  -ms-touch-action: auto;
+}
+.ps--active-x > .ps__rail-x,
+.ps--active-y > .ps__rail-y {
+  display: block;
+  background-color: transparent;
+}
+
+.ps__thumb-x {
+  background-color: #aaa;
+  border-radius: 6px;
+  transition: background-color .2s linear, height .2s ease-in-out;
+  -webkit-transition: background-color .2s linear, height .2s ease-in-out;
+  height: 6px;
+  /* there must be 'bottom' for ps__thumb-x */
+  bottom: 2px;
+  /* please don't change 'position' */
+  position: absolute;
+}
