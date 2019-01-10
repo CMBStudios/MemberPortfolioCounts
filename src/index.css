@@ -58,15 +58,42 @@ code {
   -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
-.m-b-110 {margin-bottom: 110px;}
 
+.table100.ver1 th {
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
 
-.full_width{
-  width: 100%;
+  background-color: #6c7ae0;
 }
+
+.table100.ver1 td {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4;
+}
+
+.table100.ver1 .table100-body tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+
+.table100 {
+  position: relative;
+  background-color: #fff;
+}
+
+
 .full_height{
   height: 100%;
 }
+.full_width{
+  width: 100%;
+}
+
+.m-b-110 {margin-bottom: 110px;}
 
 
 .table100-head {
@@ -84,21 +111,25 @@ code {
 
 
 .column2 {
-  width: 20%;
+  width: 30%;
 }
 
 .column3 {
-  width: 20%;
+  width: 30%;
 }
 
 .column4 {
-  width: 20%;
+  width: 30%;
 }
 
 
 .table100-body {
   max-height: 585px;
   overflow: auto;
+}
+
+.table100-body table {
+  width: 100%;
 }
 
 .js-pscroll {
@@ -130,3 +161,11 @@ code {
   /* please don't change 'position' */
   position: absolute;
 }
+.table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }

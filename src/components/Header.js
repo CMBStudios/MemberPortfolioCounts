@@ -53,7 +53,7 @@ export default class Header extends Component {
           <td className="cell100 column1">{index + 1}</td>
           <td className="cell100 column2">{data.app_name}</td>
           <td className="cell100 column3">{data.ip}</td>
-          <td className="cell100 column4">{data.time}</td>
+          <td className="cell100 column4" style={{float: 'none'}}>{data.time}</td>
         </tr>
       ));
       console.log(tbodyItemShow);
@@ -107,20 +107,19 @@ export default class Header extends Component {
             {filterItemsWithSeparator}
           </div>
           <div className="table100 ver1 m-b-110 full_width full_height">
-            <div className="table100-head">
-              <table>
-                <thead>
-                  <tr className="row100 head">
-                    <th className="cell100 column1">No</th>
-                    <th className="cell100 column2">App_name</th>
-                    <th className="cell100 column3">IP_Address</th>
-                    <th className="cell100 column4">Access_Time</th>
-                  </tr>
-                </thead>
-              </table>
-            </div>
-
             <div className="table100-body js-pscroll ps ps--active-y">
+              <div>
+                <table>
+                  <thead>
+                    <tr className="row100 head">
+                      <th className="cell100 column1">No</th>
+                      <th className="cell100 column2">App_name</th>
+                      <th className="cell100 column3">IP_Address</th>
+                      <th className="cell100 column4" style={{float: 'none'}}>Access_Time</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
               <table>
                 <tbody>
                   {tbodyItemShow}
